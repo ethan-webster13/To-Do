@@ -1,0 +1,46 @@
+{
+  "focus_strategies": [
+    {
+      "category": "Time Management",
+      "description": "Use the Pomodoro technique (25 minutes work, 5 minutes break) or the 10/3 rule to maintain focus."
+    },
+    {
+      "category": "Environmental Control",
+      "description": "Clear your workspace, use headphones to block noise, and keep your phone in another room."
+    },
+    {
+      "category": "Task Breakdown",
+      "description": "Break large projects into small, manageable steps to avoid feeling overwhelmed."
+    },
+    {
+      "category": "Physical Activity",
+      "description": "Exercise or take short walks to boost neurotransmitters and reduce restlessness."
+    },
+    {
+      "category": "Stimulation Tools",
+      "description": "Utilize fidget toys or listen to instrumental music/ambient noise to keep your brain engaged."
+    },
+    {
+      "category": "Externalize Information",
+      "description": "Use whiteboards, post-it notes, and digital apps (like Todoist) to track tasks and appointments."
+    },
+    {
+      "category": "Manage Cognitive Load",
+      "description": "Use a 'thought dump' notebook to jot down unrelated thoughts and revisit them later."
+    }
+  ],
+  "habits_to_support_focus": [
+    {
+      "habit": "Consistent Routine",
+      "description": "Establish a predictable daily schedule to reduce cognitive stress."
+    },
+    {
+      "habit": "Prioritize Tasks",
+      "description": "Use the 'two-minute rule'—if a task takes less than two minutes, do it immediately."
+    },
+    {
+      "habit": "Nutritious Diet",
+      "description": "Maintain a balanced diet, as this can affect energy levels and symptoms."
+    }
+  ]
+}
