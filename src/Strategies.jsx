@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 //import initialData from './adhd.json'
 const Strategy =  () => {
     const [strats, setStrats] = useState([]);
-    const [habits, setHabits] = useState()
+    const [habits, setHabits] = useState([])
  //start mock live json server:npx json-server adhd.json -p 5000
     const fetchStrat = async () => {
         try {
@@ -21,12 +21,13 @@ const Strategy =  () => {
             return habits
         } catch (error) {
             console.error('Failed to fetch from Locally hosted server', error)
-    }
+        }
     }
 
     useEffect(()=> {
         fetchStrat();
         fetchHabits()
+
     },[])
     
     return (
@@ -53,11 +54,12 @@ const Strategy =  () => {
     )
 }
 
-const habits = async () => {
+/*const habits = async () => {
     try {
             const response = await fetch('http://localhost:5000/habits_to_support_focus');
             const data = await response.json();
             setHabits(data);
+            console.log(habits  )
             return habits
         } catch (error) {
             console.error('Failed to fetch from Locally hosted server', error)
@@ -65,8 +67,8 @@ const habits = async () => {
 
     useEffect(()=> {
 
-    },)
+    },[]) 
 
-}
+}*/
 
 export default Strategy
