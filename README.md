@@ -1,3 +1,14 @@
+# to see Key Strategies for ADHD Focus section
+open terminal and type npm run dev
+open new terminal and  type cd .\src
+  -  after this may be prompted to, install if you havent already, NPX or Node Packet Execute.  
+  -  We shall now locally host those pieces of data to be called upon via the Strategies component
+in the terminal we moved to the \src foulder in type:
+npx json-server adhd.json -p5000
+
+The Strategies component should now properly load the Key Strategy information by locally hosting 
+a json file on port 5000 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
